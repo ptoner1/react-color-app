@@ -1,0 +1,58 @@
+.Color {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Color-boxes {
+    height: 87%;
+}
+
+.Color-footer {
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+.back-box {
+    width: 20%;
+    height: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: -4px;
+    background: black;
+}
+
+.back-button {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -15px;
+    text-align: center;
+    outline: none;
+    background-color: rgba(123, 123, 123, 0.642);
+    font-size: 1rem;
+    line-height: 30px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.back-box:hover .copy-button {
+    transition: 0.5s;
+}

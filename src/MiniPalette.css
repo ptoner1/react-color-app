@@ -1,0 +1,70 @@
+.MiniPalette {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.MiniPalette:hover svg {
+    opacity: 1;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    color: black;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    position: relative;
+}
+
+.emoji {
+    margin-left: 0.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.colors {
+    height: 150px;
+    width: 100%;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.miniColor {
+    height: 25%;
+    width: 20%;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: -3.5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.delete {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eb3d30;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+    padding: 3px;
+    opacity: 0;
+}
+
+.delete:hover {
+    opacity: 1;
+}
