@@ -1,7 +1,10 @@
 <h1>Color Palette App</h1>
 <p>
   Built using React.  Navigation done with React Router.  This app can help the user create and save color palettes to be used in other design projects. 
-  It can be found deployed here: http://color-palette-generator-paultoner.s3-website-us-east-1.amazonaws.com/
+  It can be found deployed 
+  <a href="http://color-palette-generator-paultoner.s3-website-us-east-1.amazonaws.com/" target="_blank">
+    here.
+  </a>
 </p>
 
 <h2>Reading the Code</h2>
